@@ -1,0 +1,16 @@
+import java.util.*;
+public class powernumberloops {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the base value:");
+        int n1=sc.nextInt();
+        System.out.println("enter the exponent value:");
+        int n2=sc.nextInt();
+        int power=1;
+        for(int i=1;i<=n2;i++){
+            power*=n1;
+        }
+        System.out.println("power number ="+power);
+        sc.close();
+    }
+}
