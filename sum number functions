@@ -1,0 +1,19 @@
+import java.util.*;
+public class sumnumberfunctions {
+    public static int add(int n,int ad){
+        while(n>0){
+            int digit=n%10;
+            ad+=digit;
+            n/=10;
+        }
+        return ad;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number:");
+        int n=sc.nextInt();
+        int ad=0;
+        System.out.println("sum number ="+add(n, ad));
+        sc.close();
+    }
+}
