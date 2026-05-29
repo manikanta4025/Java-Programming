@@ -1,0 +1,14 @@
+import java.util.*;
+public class perimetercirclefunctions {
+    public static double perimeter(double r,double pi){
+        return 2*pi*r;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the radius:");
+        double r=sc.nextDouble();
+        double pi=3.14;
+        System.out.println("perimeter circle ="+perimeter(r, pi));
+        sc.close();
+    }
+}
