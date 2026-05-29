@@ -1,0 +1,15 @@
+import java.util.*;
+public class thirdangletrianglefunctions {
+    public static int angle(int n1,int n2){
+        return 180-(n1+n2);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the first angle:");
+        int n1=sc.nextInt();
+        System.out.println("enter the second angle:");
+        int n2=sc.nextInt();
+        System.out.println("third angle ="+angle(n1, n2));
+        sc.close();
+    }
+}
