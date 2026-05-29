@@ -1,0 +1,21 @@
+import java.util.*;
+public class modulodivisiontwonumbersfunctions {
+    public static void div(int n1,int n2){
+        if(n2==0){
+            System.out.println("error! modulo division not possible");
+        }
+        else{
+            int div=n1%n2;
+            System.out.println("Modulo division two numbers ="+div);
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the first number:");
+        int n1=sc.nextInt();
+        System.out.println("enter the second number:");
+        int n2=sc.nextInt();
+        div(n1, n2);
+        sc.close();
+    }
+}
