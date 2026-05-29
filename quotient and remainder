@@ -1,0 +1,20 @@
+import java.util.*;
+public class quotientremainder {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the dividend value:");
+        int n1=sc.nextInt();
+        System.out.println("enter the divisior value:");
+        int n2=sc.nextInt();
+        if(n2==0){
+            System.out.println("error! quotient and remainder not possible");
+        }
+        else{
+            double quo=n1/n2;
+            int rem=n1%n2;
+            System.out.println("quotient ="+quo);
+            System.out.println("remainder ="+rem);
+        }
+        sc.close();
+    }
+}
