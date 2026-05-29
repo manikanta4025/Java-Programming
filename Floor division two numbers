@@ -1,0 +1,18 @@
+import java.util.*;
+public class floordivisiontwonumbers {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the first number:");
+        float n1=sc.nextFloat();
+        System.out.println("enter the second number:");
+        float n2=sc.nextFloat();
+        if(n2==0){
+            System.out.println("error! Floor division not possible");
+        }
+        else{
+            int div=(int)(n1/n2);
+            System.out.println("Floor division two numbers ="+div);
+        }
+        sc.close();
+    }
+}
