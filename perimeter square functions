@@ -1,0 +1,13 @@
+import java.util.*;
+public class perimetersquarefunctions {
+    public static int perimeter(int s){
+        return 4*s;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.err.println("enter the side:");
+        int s=sc.nextInt();
+        System.out.println("perimeter square ="+perimeter(s));
+        sc.close();
+    }
+}
