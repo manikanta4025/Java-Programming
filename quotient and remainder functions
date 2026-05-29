@@ -1,0 +1,23 @@
+import java.util.*;
+public class quotientremainderfunctions {
+    public static void qr(int n1,int n2){
+        if(n2==0){
+            System.out.println("error! quotient and remainder not possible");
+        }
+        else{
+            double quo=n1/n2;
+            int rem=n1%n2;
+            System.out.println("quotient ="+quo);
+            System.out.println("remainder ="+rem);
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the dividend value:");
+        int n1=sc.nextInt();
+        System.out.println("enter the divisior value:");
+        int n2=sc.nextInt();
+        qr(n1, n2);
+        sc.close();
+    }
+}
