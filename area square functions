@@ -1,0 +1,13 @@
+import java.util.*;
+public class areasquarefunctions {
+    public static int area(int s){
+        return s*s;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.err.println("enter the side:");
+        int s=sc.nextInt();
+        System.out.println("area square ="+area(s));
+        sc.close();
+    }
+}
