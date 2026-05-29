@@ -1,0 +1,15 @@
+import java.util.*;
+public class additiontwonumbersfunctions {
+    public static int add(int n1,int n2){
+        return n1+n2;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the first number:");
+        int n1=sc.nextInt();
+        System.out.println("enter the second number:");
+        int n2=sc.nextInt();
+        System.out.println("Addition two numbers ="+add(n1, n2));
+        sc.close();
+    }
+}
